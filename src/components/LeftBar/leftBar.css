@@ -1,0 +1,19 @@
+.leftBar{
+    height: 20px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 15%;
+}
+a{
+    margin-right: 15px;
+    text-decoration-line: none;
+    color:rgba(245, 96, 212, 0.6);
+}
+a:hover{
+    color: rgb(245, 96, 212);
+}
+.active{
+    color: rgb(245, 96, 212);
+}
