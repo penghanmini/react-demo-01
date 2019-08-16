@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+
+
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom'
 import './leftBar.css'
@@ -37,7 +40,7 @@ class LeftBar extends Component {
                     this.state.router.map((item,index)=>{
                         return (
                             <NavLink 
-                                exact={index == 0?true:false} 
+                                exact={index === 0?true:false} 
                                 to={item.url} 
                                 key={index}> 
                                     {item.title}

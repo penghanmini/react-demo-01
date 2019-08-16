@@ -1,5 +1,5 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import { Input } from 'antd'
 
 import './topBar.css'
 import imgUrl from '../../static/img/flower-white.png'
@@ -17,7 +17,7 @@ class TopBar extends Component {
             <div className="topBar">
                 <img src={imgUrl} className="logoStyle" alt="logo"></img>
                 <div className="title">PengHan</div>
-                <Input className="topSearch" placeholder="Search" />
+                <input className="topSearch" placeholder="Search" />
             </div>
          );
     }

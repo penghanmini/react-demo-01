@@ -9,11 +9,12 @@
 a{
     margin-right: 15px;
     text-decoration-line: none;
-    color:rgba(245, 96, 212, 0.6);
+    /* color:rgba(64, 158, 255, 0.6); */
+    color: #909399;
 }
 a:hover{
-    color: rgb(245, 96, 212);
+    color: rgb(64, 158, 255);
 }
 .active{
-    color: rgb(245, 96, 212);
+    color: rgb(64, 158, 255);
 }
